@@ -252,3 +252,29 @@ header .container nav .menu-social img:hover {
 .s-cases .container .cases img:hover {
   transform: translateY(-2%);
 }
+
+.s-contact {
+  padding-bottom: 4rem;
+}
+
+.s-contact .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.s-contact .container .title-contact h2 {
+  margin-bottom: 2.4rem;
+}
+
+.s-contact .container .form-contact {
+  width: 100%;
+  max-width: 48.6rem;
+}
+
+.s-contact .container .form-contact .input-group input[type="text"] {
+  margin-bottom: 3.1rem;
+}
+.s-contact .container .form-contact .input-group textarea {
+  margin-bottom: 0;
+}
